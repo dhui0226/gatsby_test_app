@@ -1,6 +1,13 @@
 import * as React from "react"
 
 // styles
+const testStyles = {
+  color: "orange",
+  fontWeight: 500,
+  border: "solid black",
+  borderRadius: "5px"
+}
+
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -130,6 +137,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+      <p style={testStyles}>Experimenting with Gatsby</p>
       <h1 style={headingStyles}>
         Congratulations
         <br />
