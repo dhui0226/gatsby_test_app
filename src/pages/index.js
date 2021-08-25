@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 // styles
 const testStyles = {
@@ -138,6 +139,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <p style={testStyles}>Experimenting with Gatsby</p>
+      <Link to="/about">About</Link>
       <h1 style={headingStyles}>
         Congratulations
         <br />
